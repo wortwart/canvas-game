@@ -1,0 +1,30 @@
+<!DOCTYPE html5>
+<html>
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Canvas-Spiel</title>
+  <style type="text/css">
+  #rahmen {
+   text-align: center;
+   background-color: #669;
+   font-size: 16pt;
+   padding: 10px;
+  }
+  canvas {
+   background-color: lightblue;
+  }
+  </style>
+ </head>
+
+ <body>
+  <h1>Canvas-Spiel</h1>
+  <div id="rahmen">
+   <p id="scoreanzeige">Drücken Sie Return, um das Spiel zu starten!</p>
+   <canvas height="300" width="400"></canvas>
+   <form action="javascript: void(0)" method="get">
+    <p><input name="s" value="Start" type="submit"></p>
+   </form>
+  </div>
+  <script type="text/javascript" src="game.js"></script>
+ </body>
+</html>
